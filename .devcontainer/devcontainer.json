@@ -1,0 +1,15 @@
+{
+  "name": "atcoder-rs dev-container",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "rs-container",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "serayuzgur.crates"
+      ]
+    }
+  }
+}
